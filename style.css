@@ -1,0 +1,357 @@
+/* ===== Q1: Doanh thu bán hàng theo Mặt hàng ===== */
+body.q1-body {
+  font-family: Arial, sans-serif;
+}
+h2.q1-title {
+  text-align: center;
+  color: #4e79a7;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+q1-bar:hover {
+  opacity: 0.8;
+}
+#q1-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  opacity: 0;
+  font-size: 13px;
+  transition: opacity 0.3s;
+}
+#q1-chart {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ===== Q2: Doanh thu bán hàng theo Nhóm hàng ===== */
+body.q2-body {
+  font-family: Arial, sans-serif;
+}
+h2.q2-title {
+  text-align: center;
+  color: #4e79a7;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.q2-bar:hover {
+  opacity: 0.8;
+}
+#q2-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: none;
+}
+#q2-chart {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ===== Q3: Doanh số bán hàng theo Tháng ===== */
+body.q3-body {
+  font-family: Arial, sans-serif;
+}
+h2.q3-title {
+  text-align: center;
+  color: #4e79a7;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.q3-chart .bar:hover {
+  opacity: 0.8;
+}
+.q3-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: none;
+}
+#q3-chart {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ===== Q4: Doanh thu trung bình theo Ngày trong tuần =====  */
+body.q4-body {
+  font-family: Arial, sans-serif;
+}
+h2.q4-title {
+  text-align: center;
+  color: #4e79a7;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.q4-chart .bar:hover {
+  opacity: 0.8;
+}
+.q4-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: none;
+}
+#q4-chart {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ===== Q5: Doanh thu trung bình theo Ngày trong tháng ===== */
+body {
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #4e79a7;
+}
+.bar:hover {
+  opacity: 0.8;
+}
+.q5-tooltip {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+}
+
+
+/* ===== Q6: Doanh số Bán hàng Trung bình theo Khung Giờ ===== */
+body {
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #4e79a7;
+}
+#q6-chart .bar:hover {
+  opacity: 0.8;
+}
+#q6-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: none;
+}
+#q6-label {
+  font-size: 12px;
+  fill: black;
+  text-anchor: middle;
+  text-align: center;
+}
+
+
+/* ======= Q7: Xác suất Bán hàng theo Nhóm hàng ======= */
+body {
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #4e79a7;
+}
+.bar:hover {
+  opacity: 0.8;
+}
+.q7-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: none;
+}
+
+
+/* ======= Q8: Xác suất bán hàng theo Nhóm hàng theo Tháng ======= */
+body {
+  font-family: Arial, sans-serif;
+
+}
+h2 {
+  text-align: center;
+  color: #4e79a7;
+}
+#q8-tooltip {
+  position: absolute;
+  display: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+
+/* ================= Q9: Xác suất Bán hàng theo Nhóm hàng =================== */
+.q9-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.q9-title {
+    text-align: center;
+    color: #4e79a7;
+    margin-bottom: 20px;
+}
+.q9-chart-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.q9-chart {
+    width: 28%;
+    height: 320px;
+}
+.q9-tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    pointer-events: none;
+    display: none;
+}
+.q9-chart-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e79a7;
+    margin-bottom: 5px;
+}
+
+
+/* ========================= Q10 - Xác suất bán hàng theo Tháng ========================= */
+.q10-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.q10-title {
+    text-align: center;
+    color: #4e79a7;
+    margin-bottom: 30px;
+}
+.q10-chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.q10-chart-container .chart {
+    margin: 30px;
+}
+.q10-chart-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e79a7;
+    margin-bottom: 10px;
+}
+.q10-tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* ========================= Q11 - Phân phối Lượt mua Hàng ========================= */
+.q11-body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.q11-title {
+    text-align: center;
+    color: #4e79a7;
+    margin-bottom: 20px;
+}
+.q11-chart-container {
+    display: flex;
+    justify-content: center;
+}
+.q11-tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* ========================= Q12 - Phân phối Mức chi trả của Khách hàng ========================= */
+body {
+    font-family: Arial, sans-serif;
+}
+#q12-chart {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    color: #4e79a7;
+}
+.q12-tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+}
